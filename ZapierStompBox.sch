@@ -28,11 +28,11 @@ $Comp
 L MCU_Microchip_ATmega:ATmega16U2-AU U1
 U 1 1 5E9095A1
 P 5500 3250
-F 0 "U1" H 5500 1761 50  0000 C CNN
+F 0 "U1" H 5500 1761 50  0001 C CNN
 F 1 "ATmega16U2-AU" H 5500 1670 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5500 3250 50  0001 C CIN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias" H 5500 3250 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 5500 3250 50  0001 C CNN
-F 4 "C59019" H 5500 3250 50  0000 C CNN "LCSC"
+F 4 "C17317" H 5500 3250 50  0000 C CNN "LCSC"
 	1    5500 3250
 	1    0    0    -1  
 $EndComp
@@ -423,18 +423,6 @@ Wire Wire Line
 Connection ~ 3150 2600
 Wire Wire Line
 	3150 2600 3250 2600
-$Comp
-L Device:Ferrite_Bead FB1
-U 1 1 5E9A86E7
-P 3050 3400
-F 0 "FB1" H 3187 3491 50  0000 L CNN
-F 1 "Ferrite_Bead" H 3187 3400 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 2980 3400 50  0001 C CNN
-F 3 "~" H 3050 3400 50  0001 C CNN
-F 4 "C85838" H 3187 3309 50  0000 L CNN "LCSC"
-	1    3050 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2950 3150 3050 3150
 Wire Wire Line
@@ -466,8 +454,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 3200 3050 3200
 Connection ~ 3050 3200
-Wire Wire Line
-	3050 3200 3050 3250
 $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 5E9D0EC2
@@ -491,4 +477,6 @@ Wire Wire Line
 Connection ~ 3900 2750
 Wire Wire Line
 	3900 2750 3850 2750
+Wire Wire Line
+	3050 3200 3050 3550
 $EndSCHEMATC

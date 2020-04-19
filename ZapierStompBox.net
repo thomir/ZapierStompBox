@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/thomi/Documents/ZapierStompBox/ZapierStompBox.sch)
-    (date "Friday, 17 April 2020 at 04:15:43 pm")
+    (date "Saturday, 18 April 2020 at 12:01:34 pm")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -40,10 +40,10 @@
       (tstamp 5E90B34F))
     (comp (ref C1)
       (value "100 uF")
-      (footprint Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H)
+      (footprint Capacitor_SMD:C_1206_3216Metric)
       (datasheet ~)
       (fields
-        (field (name LCSC) C16133))
+        (field (name LCSC) C15008))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E90C56F))
